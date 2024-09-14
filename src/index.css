@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove link underline and set default link color */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Customize the scrollbar appearance */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Category button hover effect */
+.category-btn:hover {
+  background-color: #FC1503 !important;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+}
+
+/* React player styling */
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+/* Search bar styling */
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+/* Category button base styles */
+.category-btn {
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 900px) {
+  .category-btn {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Horizontal scroll adjustment */
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  /* Adjust react player height for smaller screens */
+  .react-player {
+    height: 45vh !important;
+  }
+
+  /* Adjust search bar width for smaller screens */
+  .search-bar {
+    width: 200px;
+  }
+}
