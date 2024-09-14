@@ -23,7 +23,6 @@
 
 - **Riya Dey**  
   [GitHub Profile](https://github.com/riyadey-27)
-=======
 # MyTube-player
 MyTube Player is a React.js app that replicates a basic YouTube video player. It features a responsive design with search functionality, allowing users to find and watch videos in a custom-built player.
->>>>>>> 189efedcd9eb39121d1c73565afe7d807f34f3a0
+189efedcd9eb39121d1c73565afe7d807f34f3a0
